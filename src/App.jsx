@@ -305,10 +305,10 @@ const styles = `
   .nav-links { display: flex; align-items: center; gap: 28px; }
   .nav-link {
     font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 14px; font-weight: 500; color: #2fbca0;
+    font-size: 14px; font-weight: 500; color: #0369a1;
     background: none; border: none; cursor: pointer; padding: 4px 0; transition: color 0.15s;
   }
-  .nav-link:hover, .nav-link.active { color: #0369a1; }
+  .nav-link:hover, .nav-link.active { color: #2fbca0; }
   .nav-cta {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 14px; font-weight: 600;
@@ -324,7 +324,7 @@ const styles = `
   .toggle-btn {
     font-family: 'Bricolage Grotesque', sans-serif;
     padding: 10px 28px; border-radius: 9px; border: none;
-    font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.2s; color: #2fbca0; background: transparent;
+    font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.2s; color: #7a746c; background: transparent;
   }
   .toggle-btn.active { background: #ffffff; color: #0369a1; box-shadow: 0 1px 4px rgba(0,0,0,0.1); font-weight: 600; }
 
@@ -332,10 +332,10 @@ const styles = `
   .hero-eyebrow {
     display: inline-block; font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 12px; font-weight: 700; letter-spacing: 1.4px;
-    text-transform: uppercase; color: #c86434; margin-bottom: 22px;
+    text-transform: uppercase; color: #2fbca0; margin-bottom: 22px;
   }
-  .hero-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: clamp(34px, 5.5vw, 54px); line-height: 1.14; color: #0369a1; margin-bottom: 24px; font-weight: 400; }
-  .hero-title em { font-style: italic; color: #c86434; }
+  .hero-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: clamp(34px, 5.5vw, 54px); line-height: 1.14; color: #c86434; margin-bottom: 24px; font-weight: 400; }
+  .hero-title em { font-style: italic; color: #2fbca0; }
   .hero-sub { font-family: 'Cooper BT', 'Georgia', serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
   .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
@@ -354,7 +354,7 @@ const styles = `
 
   .section { padding: 72px 24px; }
   .section-inner { max-width: 1080px; margin: 0 auto; }
-  .section-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 34px; color: #0369a1; margin-bottom: 10px; font-weight: 400; }
+  .section-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 34px; color: #c86434; margin-bottom: 10px; font-weight: 400; }
   .section-sub { font-family: 'Cooper BT', 'Georgia', serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; }
 
   .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; }
@@ -404,7 +404,7 @@ const styles = `
 
   /* MATCHES */
   .matches-intro { max-width: 600px; margin: 0 auto; padding: 52px 24px 0; text-align: center; }
-  .matches-intro-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 32px; color: #0369a1; margin-bottom: 12px; font-weight: 400; }
+  .matches-intro-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 32px; color: #c86434; margin-bottom: 12px; font-weight: 400; }
   .matches-intro-sub { font-family: 'Cooper BT', 'Georgia', serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; line-height: 1.7; }
   .matches-grid { max-width: 860px; margin: 0 auto; padding: 0 24px 80px; display: flex; flex-direction: column; gap: 24px; }
   .match-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; overflow: hidden; }
@@ -459,7 +459,7 @@ const styles = `
 
   /* JOIN */
   .join-hero { max-width: 720px; margin: 0 auto; padding: 68px 24px 52px; text-align: center; }
-  .join-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 42px; color: #0369a1; line-height: 1.18; margin-bottom: 22px; font-weight: 400; }
+  .join-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 42px; color: #c86434; line-height: 1.18; margin-bottom: 22px; font-weight: 400; }
   .join-sub { font-family: 'Cooper BT', 'Georgia', serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
   .join-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto 60px; padding: 0 24px; }
   .join-card { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; padding: 28px; }
@@ -706,7 +706,7 @@ function JoinCoachPage({ setPage }) {
   if (stage === 'landing') return (
     <>
       <div className="join-hero">
-        <h1 className="join-title">Stop spending your time<br />finding clients.<br /><span style={{ color: '#c86434' }}>Focus on coaching them.</span></h1>
+        <h1 className="join-title">Stop spending your time<br />finding clients.<br /><span style={{ color: '#2fbca0' }}>Focus on coaching them.</span></h1>
         <p className="join-sub">BeHallthy is a marketplace for vetted, qualified health coaches. We handle the matching, the booking and the admin. You show up and coach.</p>
         <button className="btn-primary" onClick={() => document.getElementById('join-benefits').scrollIntoView({ behavior: 'smooth' })}>See how it works</button>
       </div>
