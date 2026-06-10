@@ -52,12 +52,12 @@ const COACHES = [
     coachType: 'Health and Nutrition Coach',
     specialism: 'Gut health & digestion',
     specialismKey: 'gut',
-    bio: "Hi, I\'m Hannah. I work with people who have spent years being told their digestion issues are \"just IBS\" or \"stress related\" — and who are done accepting that as an answer. My approach looks at what your gut is actually telling you rather than trying to mask the symptoms. If you\'ve tried the obvious things and still feel off, I\'d love to help you connect the dots.",
+    bio: "Hi, I\'m Hannah. I work with people who have spent years being told their digestion issues are \"just IBS\" or \"stress related\", and who are done accepting that as an answer. My approach looks at what your gut is actually telling you rather than trying to mask the symptoms. If you\'ve tried the obvious things and still feel off, I\'d love to help you connect the dots.",
     qualifications: ['UKIHCA Registered', 'Health and Nutrition Coach', 'Fully Insured'],
     languages: ['English'],
     rating: 4.9, reviews: 34,
     avatar: 'HO', avatarBg: '#e6f7f4', avatarColor: '#0369a1',
-    nextGroup: 'Gut Reset Foundations — Tues 17 June, 7pm',
+    nextGroup: 'Gut Reset Foundations, Tues 17 June, 7pm',
     groupPrice: 25,
   },
   {
@@ -68,12 +68,12 @@ const COACHES = [
     coachType: 'Health and Wellness Coach',
     specialism: "Women\'s health & hormones",
     specialismKey: 'hormones',
-    bio: "Hi, I\'m Priya. I specialise in the hormonal picture that so many women in their 30s and 40s recognise but can\'t get answers for — the fatigue that sleep doesn\'t fix, the mood shifts, the cycle changes that feel invisible in a standard GP appointment. I bring a calm, evidence-informed approach to helping you understand what your body is actually asking for.",
+    bio: "Hi, I\'m Priya. I specialise in the hormonal picture that so many women in their 30s and 40s recognise but can\'t get answers for: the fatigue that sleep doesn\'t fix, the mood shifts, the cycle changes that feel invisible in a standard GP appointment. I bring a calm, evidence-informed approach to helping you understand what your body is actually asking for.",
     qualifications: ['ICF Certified Coach', 'UKIHCA Registered', 'Fully Insured'],
     languages: ['English', 'Hindi'],
     rating: 5.0, reviews: 28,
     avatar: 'PS', avatarBg: '#fdf0e8', avatarColor: '#c86434',
-    nextGroup: 'Hormones & Energy Reset — Wed 18 June, 6.30pm',
+    nextGroup: 'Hormones & Energy Reset, Wed 18 June, 6.30pm',
     groupPrice: 35,
   },
   {
@@ -84,12 +84,12 @@ const COACHES = [
     coachType: 'Health Coach',
     specialism: 'Stress & lifestyle',
     specialismKey: 'stress',
-    bio: "Hi, I\'m Ciarán. I work with people who are functioning well on paper but running on empty underneath. My clients are often high achievers who have normalised being exhausted and wired at the same time. I take a practical, no-nonsense approach to lifestyle — sleep, stress load, movement, and the habits that are quietly draining you. No fluff, just what actually works.",
+    bio: "Hi, I\'m Ciarán. I work with people who are functioning well on paper but running on empty underneath. My clients are often high achievers who have normalised being exhausted and wired at the same time. I take a practical, no-nonsense approach to lifestyle: sleep, stress load, movement, and the habits that are quietly draining you. No fluff, just what actually works.",
     qualifications: ['UKIHCA Registered', 'Health Coach', 'Fully Insured'],
     languages: ['English'],
     rating: 4.8, reviews: 41,
     avatar: 'CD', avatarBg: '#e0f0fa', avatarColor: '#0369a1',
-    nextGroup: 'The Burnout Reset — Thurs 19 June, 7.30pm',
+    nextGroup: 'The Burnout Reset, Thurs 19 June, 7.30pm',
     groupPrice: 25,
   },
   {
@@ -100,12 +100,12 @@ const COACHES = [
     coachType: 'Health and Nutrition Coach',
     specialism: 'Weight & nutrition',
     specialismKey: 'weight',
-    bio: "Hi, I\'m Sofia. I work with clients who have tried every diet going and are done with restriction. My focus is on the relationship with food as much as the food itself — understanding your patterns and building an approach that actually fits your life long term. I also work in Portuguese if that feels more comfortable for you.",
+    bio: "Hi, I\'m Sofia. I work with clients who have tried every diet going and are done with restriction. My focus is on the relationship with food as much as the food itself. Understanding your patterns and building an approach that actually fits your life long term. I also work in Portuguese if that feels more comfortable for you.",
     qualifications: ['UKIHCA Registered', 'Health and Nutrition Coach', 'Fully Insured'],
     languages: ['English', 'Portuguese'],
     rating: 4.9, reviews: 52,
     avatar: 'SA', avatarBg: '#e6f7f4', avatarColor: '#2fbca0',
-    nextGroup: 'Food & You — Mon 16 June, 6pm',
+    nextGroup: 'Food & You, Mon 16 June, 6pm',
     groupPrice: 40,
   },
   {
@@ -116,12 +116,12 @@ const COACHES = [
     coachType: 'Health Coach',
     specialism: "Men\'s health",
     specialismKey: 'mens',
-    bio: "Hi, I\'m James. I focus on the health issues men tend to ignore until they become a real problem — low energy, poor sleep, weight creep, and that slow erosion of feeling physically well. I offer a straightforward, judgement-free space for men who want to do something about it, without the gym-bro noise.",
+    bio: "Hi, I\'m James. I focus on the health issues men tend to ignore until they become a real problem: low energy, poor sleep, weight creep, and that slow erosion of feeling physically well. I offer a straightforward, judgement-free space for men who want to do something about it, without the gym-bro noise.",
     qualifications: ['UKIHCA Registered', 'Health Coach', 'Fully Insured'],
     languages: ['English'],
     rating: 4.7, reviews: 19,
     avatar: 'JW', avatarBg: '#fdf0e8', avatarColor: '#c86434',
-    nextGroup: "Men\'s Health Foundations — Sat 21 June, 10am",
+    nextGroup: "Men\'s Health Foundations, Sat 21 June, 10am",
     groupPrice: 25,
   },
   {
@@ -132,12 +132,12 @@ const COACHES = [
     coachType: 'Health and Wellness Coach',
     specialism: 'Energy & fatigue',
     specialismKey: 'energy',
-    bio: "Hi, I\'m Aoife. I work with people whose tiredness has become the background noise of daily life. In my experience, it\'s rarely just one thing — sleep quality, nutrient gaps, blood sugar patterns and stress load all play a role. I help you untangle what is actually driving your fatigue and build sustainable energy from the ground up.",
+    bio: "Hi, I\'m Aoife. I work with people whose tiredness has become the background noise of daily life. In my experience, it\'s rarely just one thing. Sleep quality, nutrient gaps,, blood sugar patterns and stress load all play a role. I help you untangle what is actually driving your fatigue and build sustainable energy from the ground up.",
     qualifications: ['UKIHCA Registered', 'Health and Wellness Coach', 'Fully Insured'],
     languages: ['English'],
     rating: 4.9, reviews: 37,
     avatar: 'AM', avatarBg: '#e6f7f4', avatarColor: '#0369a1',
-    nextGroup: 'Energy from the Inside Out — Tues 17 June, 6pm',
+    nextGroup: 'Energy from the Inside Out, Tues 17 June, 6pm',
     groupPrice: 35,
   },
   {
@@ -148,12 +148,12 @@ const COACHES = [
     coachType: 'Health Coach',
     specialism: 'Sleep',
     specialismKey: 'sleep',
-    bio: "Hi, I\'m Marcus. I work with people who have quietly given up on sleep being anything other than a problem. My approach looks at the full picture — light exposure, circadian rhythm, stress, nutrition, and the habits that have slowly disrupted your body\'s ability to rest properly. If you\'ve accepted bad sleep as your normal, it doesn\'t have to stay that way.",
+    bio: "Hi, I\'m Marcus. I work with people who have quietly given up on sleep being anything other than a problem. My approach looks at the full picture: light exposure, circadian rhythm, stress, nutrition, and the habits that have slowly disrupted your body\'s ability to rest properly. If you\'ve accepted bad sleep as your normal, it doesn\'t have to stay that way.",
     qualifications: ['UKIHCA Registered', 'Health Coach', 'Fully Insured'],
     languages: ['English'],
     rating: 4.8, reviews: 23,
     avatar: 'MW', avatarBg: '#e0f0fa', avatarColor: '#0369a1',
-    nextGroup: 'Sleep Reset — Wed 18 June, 8pm',
+    nextGroup: 'Sleep Reset, Wed 18 June, 8pm',
     groupPrice: 25,
   },
 ];
@@ -161,9 +161,9 @@ const COACHES = [
 const QUIZ_QUESTIONS = [
   { id: 1, question: 'What is bringing you here today?', options: [
     { label: 'I am always tired, no matter how much I sleep', key: 'fatigue' },
-    { label: 'My digestion is not right — bloating, discomfort, irregularity', key: 'gut' },
+    { label: 'My digestion is not right: bloating, discomfort, irregularity', key: 'gut' },
     { label: 'My weight is not where I want it and nothing seems to work', key: 'weight' },
-    { label: 'My hormones feel all over the place — mood, cycle, skin, energy', key: 'hormones' },
+    { label: 'My hormones feel all over the place: mood, cycle, skin, energy', key: 'hormones' },
     { label: 'I am stressed and it is affecting everything', key: 'stress' },
     { label: 'Something feels off but I cannot quite explain it', key: 'general' },
     { label: 'I want to get ahead of my health before problems start', key: 'preventative' },
@@ -175,11 +175,11 @@ const QUIZ_QUESTIONS = [
     { label: 'Most of my life, honestly', key: 'always' },
   ]},
   { id: 3, question: 'What have you already tried?', options: [
-    { label: 'GP or medical route — did not get the answers I needed', key: 'gp' },
-    { label: 'Diets and programmes — nothing stuck', key: 'diets' },
-    { label: 'Research and self-help — overwhelming', key: 'selfhelp' },
+    { label: 'GP or medical route, did not get the answers I needed', key: 'gp' },
+    { label: 'Diets and programmes, nothing stuck', key: 'diets' },
+    { label: 'Research and self-help, which felt overwhelming', key: 'selfhelp' },
     { label: 'Nothing yet, just starting', key: 'nothing' },
-    { label: 'A mix of things — nothing has worked long term', key: 'mix' },
+    { label: 'A mix of things, nothing has worked long term', key: 'mix' },
   ]},
   { id: 4, question: 'What does your lifestyle look like, honestly?', options: [
     { label: 'Sleep is a problem', key: 'sleep' },
@@ -187,7 +187,7 @@ const QUIZ_QUESTIONS = [
     { label: 'My diet is inconsistent', key: 'diet' },
     { label: 'I do not move enough', key: 'movement' },
     { label: 'All of the above', key: 'all' },
-    { label: 'Actually not bad — but something is still off', key: 'offbutok' },
+    { label: 'Actually not bad, but something is still off', key: 'offbutok' },
   ]},
   { id: 5, question: 'What kind of support feels right for you?', options: [
     { label: 'Someone to guide me with structure and a clear plan', key: 'structured' },
@@ -208,10 +208,10 @@ const QUIZ_QUESTIONS = [
     { label: 'Other', key: 'other' },
   ]},
   { id: 8, question: 'How would you like to start?', options: [
-    { label: 'A group session — low commitment, see how it feels', key: 'group' },
-    { label: 'A taster 1:1 — meet a coach before committing', key: 'taster' },
+    { label: 'A group session, low commitment, see how it feels', key: 'group' },
+    { label: 'A taster 1:1, meet a coach before committing', key: 'taster' },
     { label: 'I am ready to commit to a programme', key: 'programme' },
-    { label: 'Not sure yet — show me my matches first', key: 'unsure' },
+    { label: 'Not sure yet, show me my matches first', key: 'unsure' },
   ]},
 ];
 
@@ -229,7 +229,7 @@ function getMatches(answers) {
       { coach: COACHES[3], reason: `Sofia\'s work on nutrition is directly relevant here. She will help you understand how what you are eating may be contributing to how you feel.` },
     ],
     fatigue: [
-      { coach: COACHES[5], reason: `Aoife specialises in exactly this — the kind of tiredness that does not improve with rest. She has helped many clients identify what is actually draining their energy after feeling this way for ${durationText}.` },
+      { coach: COACHES[5], reason: `Aoife specialises in exactly this, the kind of tiredness that does not improve with rest. She has helped many clients identify what is actually draining their energy after feeling this way for ${durationText}.` },
       { coach: COACHES[1], reason: `Priya\'s work in hormonal health is worth exploring here, particularly if your fatigue has a hormonal component. Given that ${triedText}, she brings a fresh perspective.` },
       { coach: COACHES[2], reason: `Ciarán works with people who are exhausted but functional. If stress is part of the picture, his lifestyle approach addresses the full load.` },
     ],
@@ -251,7 +251,7 @@ function getMatches(answers) {
     general: [
       { coach: COACHES[2], reason: `Ciarán is well suited to clients who know something is off but cannot name it. He would help you identify the patterns driving how you feel.` },
       { coach: COACHES[5], reason: `Aoife\'s approach to energy and fatigue often uncovers connections people had not made. She is a good first conversation for anyone who cannot quite explain their symptoms.` },
-      { coach: COACHES[0], reason: `Hannah\'s gut health specialism is worth exploring — gut symptoms are frequently the source of general unwellness that does not have an obvious name.` },
+      { coach: COACHES[0], reason: `Hannah\'s gut health specialism is worth exploring. Gut symptoms are frequently the source of general unwellness that does not have an obvious name.` },
     ],
     preventative: [
       { coach: COACHES[3], reason: `Sofia works with clients who want to build a solid foundation before problems develop. Her nutritional approach is practical and designed to last.` },
@@ -607,21 +607,21 @@ const COACH_QUIZ = [
     question: 'Who do you do your best work with?',
     hint: 'Think about the clients you have most enjoyed working with, or the ones you most want to work with.',
     type: 'single',
-    options: ['People in their 30s and 40s navigating mid-life health changes', 'Women dealing with hormonal or cyclical health issues', 'Men who have been ignoring their health for too long', 'High achievers who are burnt out and running on empty', 'People who have tried everything and are ready for a different approach', 'Anyone who is ready to make real changes — I work with a wide range'],
+    options: ['People in their 30s and 40s navigating mid-life health changes', 'Women dealing with hormonal or cyclical health issues', 'Men who have been ignoring their health for too long', 'High achievers who are burnt out and running on empty', 'People who have tried everything and are ready for a different approach', 'Anyone who is ready to make real changes, I work with a wide range'],
   },
   {
     id: 4,
     question: 'How would you describe your coaching style?',
-    hint: 'There is no right answer — this helps clients understand what working with you actually feels like.',
+    hint: 'This helps clients understand what working with you actually feels like.',
     type: 'single',
-    options: ['Structured and plan-driven — I like clear goals and measurable progress', 'Exploratory and client-led — I follow where the client needs to go', 'A mix of both depending on what the client needs', 'Warm and supportive — the relationship comes first', 'Direct and no-nonsense — I say what I see'],
+    options: ['Structured and plan-driven, with clear goals and measurable progress', 'Exploratory and client-led, I follow where the client needs to go', 'A mix of both depending on what the client needs', 'Warm and supportive, the relationship comes first', 'Direct and no-nonsense, I say what I see'],
   },
   {
     id: 5,
     question: 'How do you want to deliver sessions?',
     hint: 'You can offer both. In-person sessions are listed with your general location so local clients can find you.',
     type: 'single',
-    options: ['Online only — video call, I recommend Google Meet', 'In person only — I want to see clients face to face', 'Both — online for 1:1, in person for groups', 'Both — I am flexible and let the client decide'],
+    options: ['Online only, via video call. I recommend Google Meet', 'In person only, I want to see clients face to face', 'Both, online for 1:1 and in person for groups', 'Both, I am flexible and let the client decide'],
   },
   {
     id: 6,
@@ -717,7 +717,7 @@ function JoinCoachPage({ setPage }) {
           { icon: '🗓', t: 'Booking handled for you', d: 'Clients book and pay through BeHallthy. You get a notification. You run the session your way.' },
           { icon: '✅', t: 'Vetted, so clients trust you', d: 'Only UKIHCA, ICF, AC or ACCPH registered coaches join. That credential layer means clients arrive ready to engage.' },
           { icon: '👥', t: 'Group sessions and talks', d: 'List your group sessions and in-person talks on BeHallthy. Clients book through the platform. You run the room.' },
-          { icon: '📍', t: 'Online or in person', d: 'We recommend Google Meet for online sessions — free, no app needed. In-person sessions are matched to local clients.' },
+          { icon: '📍', t: 'Online or in person', d: 'We recommend Google Meet for online sessions. Free, no app needed. In-person sessions are matched to local clients.' },
           { icon: '🤝', t: 'Founding cohort perks', d: 'The first coaches to join get a full year free, permanently reduced rates, and a say in how the platform develops.' },
         ].map(c => (
           <div key={c.t} className="join-card">
@@ -757,7 +757,7 @@ function JoinCoachPage({ setPage }) {
         <div className="quiz-progress-bar">
           <div className="quiz-progress-fill" style={{ width: `${progress}%` }} />
         </div>
-        <div className="quiz-step">Profile builder — question {quizStep + 1} of {COACH_QUIZ.length}</div>
+        <div className="quiz-step">Profile builder, question {quizStep + 1} of {COACH_QUIZ.length}</div>
         <h2 className="quiz-q">{q.question}</h2>
         {q.hint && (
           <p style={{ fontFamily: "'Cooper BT', Georgia, serif", fontSize: 14, color: '#7a746c', marginBottom: 28, lineHeight: 1.65, fontStyle: 'italic' }}>{q.hint}</p>
@@ -811,7 +811,7 @@ function JoinCoachPage({ setPage }) {
 
           {profile.bioOpener && (
             <div style={{ background: '#fafaf8', borderRadius: 10, padding: '16px 20px', marginBottom: 16 }}>
-              <div style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>Bio opener — drafted from your answers</div>
+              <div style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>Bio opener, drafted from your answers</div>
               <p style={{ fontFamily: "'Cooper BT', Georgia, serif", fontSize: 14, color: '#3d3832', lineHeight: 1.75, fontStyle: 'italic' }}>"{profile.bioOpener}"</p>
             </div>
           )}
@@ -992,8 +992,8 @@ function MatchesPage({ quizAnswers, setPage, setSelectedCoach, setBookingDetails
             </div>
             <div className="match-reason">{reason}</div>
             <div className="match-actions">
-              <button className="btn-group-session" onClick={() => { setSelectedCoach(coach); setBookingDetails({ type: 'Group session', session: coach.nextGroup, price: coach.groupPrice }); setPage('booking'); }}>Join group session — £{coach.groupPrice}</button>
-              <button className="btn-taster" onClick={() => { setSelectedCoach(coach); setBookingDetails({ type: 'Taster 1:1', session: `30-minute taster session with ${coach.name}`, price: 28 }); setPage('booking'); }}>Book taster 1:1 — £28</button>
+              <button className="btn-group-session" onClick={() => { setSelectedCoach(coach); setBookingDetails({ type: 'Group session', session: coach.nextGroup, price: coach.groupPrice }); setPage('booking'); }}>Join group session {coach.groupPrice}</button>
+              <button className="btn-taster" onClick={() => { setSelectedCoach(coach); setBookingDetails({ type: 'Taster 1:1', session: `30-minute taster session with ${coach.name}`, price: 28 }); setPage('booking'); }}>Book taster 1:1, £28</button>
               <button className="btn-profile" onClick={() => { setSelectedCoach(coach); setPage('profile'); }}>View full profile</button>
             </div>
           </div>
@@ -1163,10 +1163,10 @@ function ClientDashboard({ bookings, quizAnswers, setPage }) {
 function CoachDashboard() {
   const [sessions, setSessions] = useState([
     { id: 1, client: 'Sarah M.', type: 'Taster 1:1', date: 'Tue 17 Jun, 5.30pm', mode: 'Online', status: 'Confirmed', done: false },
-    { id: 2, client: 'Rachel T.', type: 'Programme — session 3 of 8', date: 'Wed 18 Jun, 11am', mode: 'Online', status: 'Confirmed', done: false },
+    { id: 2, client: 'Rachel T.', type: 'Programme, session 3 of 8', date: 'Wed 18 Jun, 11am', mode: 'Online', status: 'Confirmed', done: false },
     { id: 3, client: 'Group session', type: 'Hormones & Energy Reset', date: 'Wed 18 Jun, 6.30pm', mode: 'In person', status: 'Confirmed', done: false },
     { id: 4, client: 'Niamh O.', type: 'Taster 1:1', date: 'Fri 20 Jun, 2pm', mode: 'Online', status: 'Pending', done: false },
-    { id: 5, client: 'Claire W.', type: 'Programme — session 1 of 8', date: 'Mon 23 Jun, 10am', mode: 'Online', status: 'Confirmed', done: false },
+    { id: 5, client: 'Claire W.', type: 'Programme, session 1 of 8', date: 'Mon 23 Jun, 10am', mode: 'Online', status: 'Confirmed', done: false },
   ]);
   const [feedbackSent, setFeedbackSent] = useState([]);
 
@@ -1278,7 +1278,7 @@ function CoachDashboard() {
             <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start', flex: 1, minWidth: 220 }}>
               <div style={{ width: 32, height: 32, borderRadius: 8, background: '#e0f0fa', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, flexShrink: 0 }}>📹</div>
               <div>
-                <div style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontWeight: 600, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>Google Meet — online sessions</div>
+                <div style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontWeight: 600, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>Google Meet for online sessions</div>
                 <div style={{ fontFamily: "'Cooper BT', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Free, no app needed for clients, no time limits. Our recommended tool for 1:1 and group sessions online.</div>
               </div>
             </div>
@@ -1286,7 +1286,7 @@ function CoachDashboard() {
               <div style={{ width: 32, height: 32, borderRadius: 8, background: '#f5ece4', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, flexShrink: 0 }}>📍</div>
               <div>
                 <div style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontWeight: 600, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>In-person sessions</div>
-                <div style={{ fontFamily: "'Cooper BT', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Your space, your venue. BeHallthy handles the booking and payment — you choose where you meet your clients.</div>
+                <div style={{ fontFamily: "'Cooper BT', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Your space, your venue. BeHallthy handles the booking and payment. You choose where you meet your clients.</div>
               </div>
             </div>
           </div>
