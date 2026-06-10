@@ -334,7 +334,7 @@ const styles = `
     font-size: 12px; font-weight: 700; letter-spacing: 1.4px;
     text-transform: uppercase; color: #2fbca0; margin-bottom: 22px;
   }
-  .hero-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: clamp(34px, 5.5vw, 54px); line-height: 1.14; color: #c86434; margin-bottom: 24px; font-weight: 400; }
+  .hero-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: clamp(28px, 4vw, 42px); line-height: 1.14; color: #c86434; margin-bottom: 24px; font-weight: 400; }
   .hero-title em { font-style: italic; color: #2fbca0; }
   .hero-sub { font-family: 'Cooper BT', 'Georgia', serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
   .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
@@ -706,6 +706,7 @@ function JoinCoachPage({ setPage }) {
   if (stage === 'landing') return (
     <>
       <div className="join-hero">
+        <span className="hero-eyebrow">Your practice, simplified</span>
         <h1 className="join-title">Stop spending your time<br />finding clients.<br /><span style={{ color: '#2fbca0' }}>Focus on coaching them.</span></h1>
         <p className="join-sub">BeHallthy is a marketplace for vetted, qualified health coaches. We handle the matching, the booking and the admin. You show up and coach.</p>
         <button className="btn-primary" onClick={() => document.getElementById('join-benefits').scrollIntoView({ behavior: 'smooth' })}>See how it works</button>
