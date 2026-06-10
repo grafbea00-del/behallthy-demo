@@ -305,7 +305,7 @@ const styles = `
   .nav-links { display: flex; align-items: center; gap: 28px; }
   .nav-link {
     font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 14px; font-weight: 500; color: #7a746c;
+    font-size: 14px; font-weight: 500; color: #2fbca0;
     background: none; border: none; cursor: pointer; padding: 4px 0; transition: color 0.15s;
   }
   .nav-link:hover, .nav-link.active { color: #0369a1; }
@@ -324,7 +324,7 @@ const styles = `
   .toggle-btn {
     font-family: 'Bricolage Grotesque', sans-serif;
     padding: 10px 28px; border-radius: 9px; border: none;
-    font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.2s; color: #7a746c; background: transparent;
+    font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.2s; color: #2fbca0; background: transparent;
   }
   .toggle-btn.active { background: #ffffff; color: #0369a1; box-shadow: 0 1px 4px rgba(0,0,0,0.1); font-weight: 600; }
 
@@ -394,7 +394,7 @@ const styles = `
   .quiz-wrap { max-width: 600px; margin: 0 auto; padding: 52px 24px; }
   .quiz-progress-bar { height: 3px; background: #eeecea; border-radius: 2px; margin-bottom: 40px; }
   .quiz-progress-fill { height: 3px; background: #c86434; border-radius: 2px; transition: width 0.4s; }
-  .quiz-step { font-family: 'Bricolage Grotesque', sans-serif; font-size: 12px; color: #7a746c; margin-bottom: 10px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
+  .quiz-step { font-family: 'Bricolage Grotesque', sans-serif; font-size: 12px; color: #2fbca0; margin-bottom: 10px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
   .quiz-q { font-family: 'Cooper BT', 'Georgia', serif; font-size: 26px; color: #0369a1; margin-bottom: 32px; line-height: 1.35; font-weight: 400; }
   .quiz-options { display: flex; flex-direction: column; gap: 10px; }
   .quiz-option { font-family: 'Cooper BT', 'Georgia', serif; padding: 15px 20px; border-radius: 10px; border: 1.5px solid #eeecea; background: #ffffff; text-align: left; font-size: 15px; color: #3d3832; cursor: pointer; transition: all 0.15s; line-height: 1.5; }
@@ -437,14 +437,14 @@ const styles = `
   .booking-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; padding: 36px; }
   .booking-title { font-family: 'Cooper BT', 'Georgia', serif; font-size: 26px; color: #0369a1; margin-bottom: 28px; font-weight: 400; }
   .booking-detail { background: #f8f7f5; border-radius: 10px; padding: 16px 20px; margin-bottom: 16px; }
-  .booking-label { font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; color: #7a746c; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .booking-label { font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; color: #2fbca0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
   .booking-value { font-family: 'Cooper BT', 'Georgia', serif; font-size: 15px; color: #0369a1; }
 
   /* DASHBOARD */
   .dashboard-body { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
   .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
   .dash-card { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; padding: 24px; }
-  .dash-card-label { font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #7a746c; margin-bottom: 18px; }
+  .dash-card-label { font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2fbca0; margin-bottom: 18px; }
   .booking-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #f8f7f5; }
   .booking-row:last-child { border-bottom: none; }
   .booking-row-name { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; color: #0369a1; font-size: 14px; }
@@ -487,7 +487,7 @@ const styles = `
   .admin-stat-label { font-family: 'Bricolage Grotesque', sans-serif; font-size: 12px; color: #7a746c; margin-top: 4px; font-weight: 500; }
   .admin-table-wrap { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; overflow: hidden; margin-bottom: 32px; }
   .admin-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .admin-table th { background: #f8f7f5; text-align: left; padding: 14px 20px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; color: #7a746c; text-transform: uppercase; letter-spacing: 0.8px; }
+  .admin-table th { background: #f8f7f5; text-align: left; padding: 14px 20px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 11px; font-weight: 700; color: #2fbca0; text-transform: uppercase; letter-spacing: 0.8px; }
   .admin-table td { padding: 14px 20px; border-top: 1px solid #f8f7f5; font-family: 'Cooper BT', 'Georgia', serif; color: #3d3832; }
 
   @media (max-width: 640px) {
