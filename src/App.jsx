@@ -297,11 +297,11 @@ const styles = `
   .nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     background: #ffffff; border-bottom: 1px solid #eeecea;
-    padding: 0 28px; height: 68px;
+    padding: 0 28px; height: 84px;
     display: flex; align-items: center; justify-content: space-between;
   }
   .nav-logo { cursor: pointer; display: flex; align-items: center; }
-  .nav-logo img { height: 44px; width: auto; }
+  .nav-logo img { height: 72px; width: auto; }
   .nav-links { display: flex; align-items: center; gap: 28px; }
   .nav-link {
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -317,7 +317,7 @@ const styles = `
   }
   .nav-cta:hover { opacity: 0.88; }
 
-  .page { padding-top: 68px; min-height: 100vh; }
+  .page { padding-top: 84px; min-height: 100vh; }
 
   .toggle-bar { display: flex; justify-content: center; padding: 36px 24px 0; }
   .toggle-wrap { display: inline-flex; background: #eeecea; border-radius: 12px; padding: 4px; gap: 4px; }
