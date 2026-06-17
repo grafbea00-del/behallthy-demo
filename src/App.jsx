@@ -381,7 +381,7 @@ const styles = `
   .coach-card-footer { padding: 16px 24px; border-top: 1px solid #eeecea; display: flex; justify-content: space-between; align-items: center; }
   .coach-rating { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #3d3832; }
   .coach-rating span { color: #7a746c; font-weight: 700; }
-  .coach-quals { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 24px 16px; }
+  .coach-quals { display: flex; gap: 6px; flex-wrap: wrap; padding: 12px 24px 16px; border-top: 1px solid #eeecea; margin-top: 8px; }
   .qual-badge { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #0369a1; background: #e0f0fa; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
   .qual-insured { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #2fbca0; background: #e6f7f4; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
   .btn-view-profile { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #c86434; background: transparent; border: none; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
