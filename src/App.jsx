@@ -35,7 +35,7 @@ function PhotoPlaceholder({ size = 80, initials, bg, color }) {
         <ellipse cx="50" cy="85" rx="35" ry="25" />
       </svg>
       <span style={{
-        fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif",
+        fontFamily: "'Lato', 'Arial', sans-serif",
         fontSize: size * 0.22, fontWeight: 700, color: color || '#7a746c',
         position: 'relative', zIndex: 1,
       }}>{initials}</span>
@@ -289,10 +289,10 @@ function getMatches(answers) {
 }
 
 const styles = `
-  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&family=Lato:wght@300;400;700&display=swap');
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Lora', 'Georgia', serif; background: #fafaf8; color: #3d3832; line-height: 1.65; }
+  body { font-family: 'Lato', 'Arial', sans-serif; background: #fafaf8; color: #3d3832; line-height: 1.65; }
 
   .nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -304,13 +304,13 @@ const styles = `
   .nav-logo img { height: 72px; width: auto; }
   .nav-links { display: flex; align-items: center; gap: 28px; }
   .nav-link {
-    font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-size: 14px; font-weight: 500; color: #0369a1;
     background: none; border: none; cursor: pointer; padding: 4px 0; transition: color 0.15s;
   }
   .nav-link:hover, .nav-link.active { color: #2fbca0; }
   .nav-cta {
-    font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-size: 14px; font-weight: 500;
     background: #c86434; color: #ffffff;
     border: none; border-radius: 8px; padding: 9px 22px; cursor: pointer; transition: opacity 0.15s;
@@ -322,7 +322,7 @@ const styles = `
   .toggle-bar { display: flex; justify-content: center; padding: 36px 24px 0; }
   .toggle-wrap { display: inline-flex; background: #eeecea; border-radius: 12px; padding: 4px; gap: 4px; }
   .toggle-btn {
-    font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     padding: 10px 28px; border-radius: 9px; border: none;
     font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.2s; color: #7a746c; background: transparent;
   }
@@ -330,23 +330,23 @@ const styles = `
 
   .hero { max-width: 800px; margin: 0 auto; padding: 68px 24px 80px; text-align: center; }
   .hero-eyebrow {
-    display: inline-block; font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    display: inline-block; font-family: 'Lato', 'Arial', sans-serif;
     font-size: 12px; font-weight: 700; letter-spacing: 1.4px;
     text-transform: uppercase; color: #c86434; margin-bottom: 22px;
   }
-  .hero-title { font-family: 'Lora', 'Georgia', serif; font-size: clamp(28px, 4vw, 42px); line-height: 1.14; color: #0369a1; margin-bottom: 24px; font-weight: 700; }
+  .hero-title { font-family: 'Lora', 'Georgia', serif; font-size: clamp(20px, 2.8vw, 30px); line-height: 1.2; color: #0369a1; margin-bottom: 24px; font-weight: 700; }
   .hero-title em { font-style: italic; color: #2fbca0; }
-  .hero-sub { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
+  .hero-sub { font-family: 'Lato', 'Arial', sans-serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
   .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
   .btn-primary {
-    font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     background: #c86434; color: #ffffff; border: none; border-radius: 10px;
     padding: 14px 32px; font-size: 15px; font-weight: 500; cursor: pointer; transition: opacity 0.15s;
   }
   .btn-primary:hover { opacity: 0.88; }
   .btn-secondary {
-    font-family: 'Bricolage Grotesque', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     background: transparent; color: #0369a1; border: 2px solid #c8c4be; border-radius: 10px;
     padding: 14px 32px; font-size: 15px; font-weight: 500; cursor: pointer; transition: border-color 0.15s;
   }
@@ -355,81 +355,81 @@ const styles = `
   .section { padding: 72px 24px; }
   .section-inner { max-width: 1080px; margin: 0 auto; }
   .section-title { font-family: 'Lora', 'Georgia', serif; font-size: 34px; color: #0369a1; margin-bottom: 10px; font-weight: 700; }
-  .section-sub { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; }
+  .section-sub { font-family: 'Lato', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; }
 
   .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; }
   .step-card { text-align: center; }
-  .step-num { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; width: 44px; height: 44px; border-radius: 50%; background: #f5ece4; color: #c86434; font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
-  .step-title { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 8px; font-size: 15px; }
-  .step-desc { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.7; }
+  .step-num { font-family: 'Lato', 'Arial', sans-serif; width: 44px; height: 44px; border-radius: 50%; background: #f5ece4; color: #c86434; font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+  .step-title { font-family: 'Lato', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 8px; font-size: 15px; }
+  .step-desc { font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.7; }
 
   .trust-bar { background: #0369a1; padding: 52px 24px; }
   .trust-bar-inner { max-width: 1080px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; text-align: center; }
   .trust-num { font-family: 'Lora', 'Georgia', serif; font-size: 38px; color: #e8a882; font-weight: 700; }
-  .trust-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; color: rgba(255,255,255,0.75); margin-top: 6px; }
+  .trust-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; color: rgba(255,255,255,0.75); margin-top: 6px; }
 
   /* COACH CARDS */
   .coaches-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
   .coach-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; overflow: hidden; transition: box-shadow 0.2s; cursor: pointer; }
   .coach-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
   .coach-card-top { padding: 24px 24px 16px; display: flex; gap: 16px; align-items: flex-start; }
-  .coach-name { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-weight: 500; color: #0369a1; font-size: 16px; margin-bottom: 2px; }
-  .coach-location { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; color: #7a746c; margin-bottom: 4px; }
-  .coach-type-tag { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; color: #c86434; background: #f5ece4; padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-block; margin-bottom: 4px; }
-  .coach-spec-tag { display: inline-block; font-family: 'Bricolage Grotesque', 'Arial', sans-serif; background: #e6f7f4; color: #2fbca0; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
-  .coach-bio { padding: 0 24px 16px; font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .coach-name { font-family: 'Lato', 'Arial', sans-serif; font-weight: 500; color: #0369a1; font-size: 16px; margin-bottom: 2px; }
+  .coach-location { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; color: #7a746c; margin-bottom: 4px; }
+  .coach-type-tag { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #c86434; background: #f5ece4; padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-block; margin-bottom: 4px; }
+  .coach-spec-tag { display: inline-block; font-family: 'Lato', 'Arial', sans-serif; background: #e6f7f4; color: #2fbca0; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
+  .coach-bio { padding: 0 24px 16px; font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .coach-card-footer { padding: 16px 24px; border-top: 1px solid #eeecea; display: flex; justify-content: space-between; align-items: center; }
-  .coach-rating { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #3d3832; }
+  .coach-rating { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #3d3832; }
   .coach-rating span { color: #7a746c; font-weight: 700; }
   .coach-quals { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 24px 16px; }
-  .qual-badge { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; color: #0369a1; background: #e0f0fa; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
-  .qual-insured { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; color: #2fbca0; background: #e6f7f4; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
-  .btn-view-profile { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #c86434; background: transparent; border: none; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+  .qual-badge { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #0369a1; background: #e0f0fa; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+  .qual-insured { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #2fbca0; background: #e6f7f4; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+  .btn-view-profile { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #c86434; background: transparent; border: none; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
 
   .filter-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
-  .filter-chip { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; padding: 7px 16px; border-radius: 20px; border: 1.5px solid #c8c4be; background: transparent; font-size: 13px; font-weight: 500; color: #7a746c; cursor: pointer; transition: all 0.15s; }
+  .filter-chip { font-family: 'Lato', 'Arial', sans-serif; padding: 7px 16px; border-radius: 20px; border: 1.5px solid #c8c4be; background: transparent; font-size: 13px; font-weight: 500; color: #7a746c; cursor: pointer; transition: all 0.15s; }
   .filter-chip:hover, .filter-chip.active { background: #f5ece4; border-color: #c86434; color: #c86434; }
 
   /* QUIZ */
   .quiz-wrap { max-width: 600px; margin: 0 auto; padding: 52px 24px; }
   .quiz-progress-bar { height: 3px; background: #eeecea; border-radius: 2px; margin-bottom: 40px; }
   .quiz-progress-fill { height: 3px; background: #c86434; border-radius: 2px; transition: width 0.4s; }
-  .quiz-step { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 12px; color: #2fbca0; margin-bottom: 10px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
+  .quiz-step { font-family: 'Lato', 'Arial', sans-serif; font-size: 12px; color: #2fbca0; margin-bottom: 10px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
   .quiz-q { font-family: 'Lora', 'Georgia', serif; font-size: 26px; color: #0369a1; margin-bottom: 32px; line-height: 1.35; font-weight: 700; }
   .quiz-options { display: flex; flex-direction: column; gap: 10px; }
-  .quiz-option { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; padding: 15px 20px; border-radius: 10px; border: 1.5px solid #eeecea; background: #ffffff; text-align: left; font-size: 15px; color: #3d3832; cursor: pointer; transition: all 0.15s; line-height: 1.5; }
+  .quiz-option { font-family: 'Lato', 'Arial', sans-serif; padding: 15px 20px; border-radius: 10px; border: 1.5px solid #eeecea; background: #ffffff; text-align: left; font-size: 15px; color: #3d3832; cursor: pointer; transition: all 0.15s; line-height: 1.5; }
   .quiz-option:hover { border-color: #c86434; background: #f5ece4; color: #c86434; }
-  .quiz-back { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; margin-top: 24px; background: none; border: none; color: #7a746c; font-size: 14px; cursor: pointer; font-weight: 500; }
+  .quiz-back { font-family: 'Lato', 'Arial', sans-serif; margin-top: 24px; background: none; border: none; color: #7a746c; font-size: 14px; cursor: pointer; font-weight: 500; }
   .quiz-back:hover { color: #0369a1; }
 
   /* MATCHES */
   .matches-intro { max-width: 600px; margin: 0 auto; padding: 52px 24px 0; text-align: center; }
   .matches-intro-title { font-family: 'Lora', 'Georgia', serif; font-size: 32px; color: #0369a1; margin-bottom: 12px; font-weight: 700; }
-  .matches-intro-sub { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; line-height: 1.7; }
+  .matches-intro-sub { font-family: 'Lato', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 48px; line-height: 1.7; }
   .matches-grid { max-width: 860px; margin: 0 auto; padding: 0 24px 80px; display: flex; flex-direction: column; gap: 24px; }
   .match-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; overflow: hidden; }
   .match-card-top { padding: 28px; display: flex; gap: 20px; align-items: flex-start; }
-  .match-badge { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #c86434; background: #f5ece4; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px; display: inline-block; }
-  .match-reason { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; padding: 16px 28px; border-top: 1px solid #f8f7f5; }
+  .match-badge { font-family: 'Lato', 'Arial', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #c86434; background: #f5ece4; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px; display: inline-block; }
+  .match-reason { font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; padding: 16px 28px; border-top: 1px solid #f8f7f5; }
   .match-actions { padding: 16px 28px; border-top: 1px solid #eeecea; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-  .btn-group-session { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; background: #2fbca0; color: #ffffff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 500; cursor: pointer; transition: opacity 0.15s; }
+  .btn-group-session { font-family: 'Lato', 'Arial', sans-serif; background: #2fbca0; color: #ffffff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 500; cursor: pointer; transition: opacity 0.15s; }
   .btn-group-session:hover { opacity: 0.88; }
-  .btn-taster { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; background: transparent; color: #0369a1; border: 1.5px solid #c8c4be; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 500; cursor: pointer; transition: border-color 0.15s; }
+  .btn-taster { font-family: 'Lato', 'Arial', sans-serif; background: transparent; color: #0369a1; border: 1.5px solid #c8c4be; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 500; cursor: pointer; transition: border-color 0.15s; }
   .btn-taster:hover { border-color: #0369a1; }
-  .btn-profile { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; background: transparent; color: #7a746c; border: none; font-size: 14px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; padding: 10px 0; }
+  .btn-profile { font-family: 'Lato', 'Arial', sans-serif; background: transparent; color: #7a746c; border: none; font-size: 14px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; padding: 10px 0; }
 
   /* PROFILE */
-  .profile-back { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; background: none; border: none; color: #7a746c; font-size: 14px; cursor: pointer; margin-bottom: 24px; display: flex; align-items: center; gap: 6px; font-weight: 500; }
+  .profile-back { font-family: 'Lato', 'Arial', sans-serif; background: none; border: none; color: #7a746c; font-size: 14px; cursor: pointer; margin-bottom: 24px; display: flex; align-items: center; gap: 6px; font-weight: 500; }
   .profile-back:hover { color: #0369a1; }
   .profile-hero { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; padding: 40px; display: flex; gap: 32px; align-items: flex-start; margin-bottom: 24px; }
   .profile-name { font-family: 'Lora', 'Georgia', serif; font-size: 30px; color: #0369a1; margin-bottom: 4px; font-weight: 700; }
-  .profile-loc { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 14px; color: #7a746c; margin-bottom: 12px; }
-  .profile-bio { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 15px; color: #7a746c; line-height: 1.8; }
+  .profile-loc { font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; margin-bottom: 12px; }
+  .profile-bio { font-family: 'Lato', 'Arial', sans-serif; font-size: 15px; color: #7a746c; line-height: 1.8; }
   .profile-sessions { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; padding: 32px; margin-bottom: 24px; }
   .session-option { border: 1.5px solid #eeecea; border-radius: 12px; padding: 20px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: border-color 0.15s; }
   .session-option:hover { border-color: #c86434; }
-  .session-type { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 4px; font-size: 15px; }
-  .session-desc { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; color: #7a746c; }
+  .session-type { font-family: 'Lato', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 4px; font-size: 15px; }
+  .session-desc { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; color: #7a746c; }
   .session-price { font-family: 'Lora', 'Georgia', serif; font-size: 24px; color: #c86434; font-weight: 700; white-space: nowrap; }
 
   /* BOOKING */
@@ -437,58 +437,58 @@ const styles = `
   .booking-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; padding: 36px; }
   .booking-title { font-family: 'Lora', 'Georgia', serif; font-size: 26px; color: #0369a1; margin-bottom: 28px; font-weight: 700; }
   .booking-detail { background: #f8f7f5; border-radius: 10px; padding: 16px 20px; margin-bottom: 16px; }
-  .booking-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
-  .booking-value { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 15px; color: #0369a1; }
+  .booking-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .booking-value { font-family: 'Lato', 'Arial', sans-serif; font-size: 15px; color: #0369a1; }
 
   /* DASHBOARD */
   .dashboard-body { max-width: 1080px; margin: 0 auto; padding: 40px 24px; }
   .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
   .dash-card { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; padding: 24px; }
-  .dash-card-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2fbca0; margin-bottom: 18px; }
+  .dash-card-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2fbca0; margin-bottom: 18px; }
   .booking-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #f8f7f5; }
   .booking-row:last-child { border-bottom: none; }
-  .booking-row-name { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-weight: 500; color: #0369a1; font-size: 14px; }
-  .booking-row-date { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 13px; color: #7a746c; margin-top: 2px; }
-  .status-confirmed { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; background: #e6f7f4; padding: 3px 10px; border-radius: 20px; }
+  .booking-row-name { font-family: 'Lato', 'Arial', sans-serif; font-weight: 500; color: #0369a1; font-size: 14px; }
+  .booking-row-date { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; color: #7a746c; margin-top: 2px; }
+  .status-confirmed { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; background: #e6f7f4; padding: 3px 10px; border-radius: 20px; }
 
   /* COACH DASH */
   .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
   .stat-box { background: #ffffff; border-radius: 12px; border: 1px solid #eeecea; padding: 20px; text-align: center; }
   .stat-num { font-family: 'Lora', 'Georgia', serif; font-size: 34px; color: #c86434; font-weight: 700; }
-  .stat-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 12px; color: #7a746c; margin-top: 4px; font-weight: 500; }
+  .stat-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 12px; color: #7a746c; margin-top: 4px; font-weight: 500; }
 
   /* JOIN */
   .join-hero { max-width: 720px; margin: 0 auto; padding: 68px 24px 52px; text-align: center; }
-  .join-title { font-family: 'Lora', 'Georgia', serif; font-size: 42px; color: #0369a1; line-height: 1.18; margin-bottom: 22px; font-weight: 700; }
-  .join-sub { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
+  .join-title { font-family: 'Lora', 'Georgia', serif; font-size: 30px; color: #0369a1; line-height: 1.25; margin-bottom: 22px; font-weight: 700; }
+  .join-sub { font-family: 'Lato', 'Arial', sans-serif; font-size: 17px; color: #7a746c; max-width: 540px; margin: 0 auto 44px; line-height: 1.75; }
   .join-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto 60px; padding: 0 24px; }
   .join-card { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; padding: 28px; }
   .join-icon { width: 40px; height: 40px; border-radius: 10px; background: #f5ece4; margin-bottom: 14px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
-  .join-card-title { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 8px; font-size: 15px; }
-  .join-card-desc { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.65; }
+  .join-card-title { font-family: 'Lato', 'Arial', sans-serif; font-weight: 500; color: #0369a1; margin-bottom: 8px; font-size: 15px; }
+  .join-card-desc { font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.65; }
   .join-form { max-width: 520px; margin: 0 auto; padding: 0 24px 80px; }
   .join-form-card { background: #ffffff; border-radius: 16px; border: 1px solid #eeecea; padding: 36px; }
   .join-form-title { font-family: 'Lora', 'Georgia', serif; font-size: 24px; color: #0369a1; margin-bottom: 24px; font-weight: 700; }
   .form-field { margin-bottom: 20px; }
-  .form-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 12px; font-weight: 700; color: #3d3832; margin-bottom: 6px; display: block; text-transform: uppercase; letter-spacing: 0.06em; }
-  .form-input, .form-select { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1.5px solid #eeecea; font-size: 14px; color: #0369a1; background: #fafaf8; outline: none; transition: border-color 0.15s; font-family: 'Lora', 'Georgia', serif; }
+  .form-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 12px; font-weight: 700; color: #3d3832; margin-bottom: 6px; display: block; text-transform: uppercase; letter-spacing: 0.06em; }
+  .form-input, .form-select { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1.5px solid #eeecea; font-size: 14px; color: #0369a1; background: #fafaf8; outline: none; transition: border-color 0.15s; font-family: 'Lato', 'Arial', sans-serif; }
   .form-input:focus, .form-select:focus { border-color: #c86434; background: #ffffff; }
 
   /* CONFIRM */
   .confirm-wrap { max-width: 480px; margin: 0 auto; padding: 80px 24px; text-align: center; }
-  .confirm-icon { width: 72px; height: 72px; border-radius: 50%; background: #e6f7f4; margin: 0 auto 28px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-family: 'Bricolage Grotesque', 'Arial', sans-serif; color: #2fbca0; font-weight: 700; }
+  .confirm-icon { width: 72px; height: 72px; border-radius: 50%; background: #e6f7f4; margin: 0 auto 28px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-family: 'Lato', 'Arial', sans-serif; color: #2fbca0; font-weight: 700; }
   .confirm-title { font-family: 'Lora', 'Georgia', serif; font-size: 30px; color: #0369a1; margin-bottom: 14px; font-weight: 700; }
-  .confirm-sub { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 36px; line-height: 1.75; }
+  .confirm-sub { font-family: 'Lato', 'Arial', sans-serif; font-size: 16px; color: #7a746c; margin-bottom: 36px; line-height: 1.75; }
 
   /* ADMIN */
   .admin-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px; margin-bottom: 40px; }
   .admin-stat { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; padding: 24px; }
   .admin-stat-num { font-family: 'Lora', 'Georgia', serif; font-size: 34px; color: #0369a1; font-weight: 700; }
-  .admin-stat-label { font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 12px; color: #7a746c; margin-top: 4px; font-weight: 500; }
+  .admin-stat-label { font-family: 'Lato', 'Arial', sans-serif; font-size: 12px; color: #7a746c; margin-top: 4px; font-weight: 500; }
   .admin-table-wrap { background: #ffffff; border-radius: 14px; border: 1px solid #eeecea; overflow: hidden; margin-bottom: 32px; }
   .admin-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .admin-table th { background: #f8f7f5; text-align: left; padding: 14px 20px; font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; text-transform: uppercase; letter-spacing: 0.8px; }
-  .admin-table td { padding: 14px 20px; border-top: 1px solid #f8f7f5; font-family: 'Bricolage Grotesque', 'Arial', sans-serif; color: #3d3832; }
+  .admin-table th { background: #f8f7f5; text-align: left; padding: 14px 20px; font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; font-weight: 500; color: #2fbca0; text-transform: uppercase; letter-spacing: 0.8px; }
+  .admin-table td { padding: 14px 20px; border-top: 1px solid #f8f7f5; font-family: 'Lato', 'Arial', sans-serif; color: #3d3832; }
 
   @media (max-width: 640px) {
     .nav-links { display: none; }
@@ -560,8 +560,8 @@ function HomePage({ userType, setUserType, setPage }) {
               <div className="steps-grid">
                 {[
                   { n: '1', t: 'Tell us what is going on', d: 'Our symptom-based quiz asks the right questions to understand what you are actually dealing with, not just what your goals are.' },
-                  { n: '2', t: 'Get matched', d: 'We show you three coaches whose specialism fits your symptoms, with a plain-English explanation of why each one is a good fit.' },
-                  { n: '3', t: 'Try a group session first', d: 'Group sessions are the lowest-commitment way to see whether health coaching is right for you. No pressure to do anything more.' },
+                  { n: '2', t: 'Get matched', d: 'We show you three coaches whose specialism fits your symptoms, with a clear explanation of why each one is a good fit.' },
+                  { n: '3', t: 'Try a group session first', d: 'A low-cost way to experience health coaching and find a coach you want to work with.' },
                   { n: '4', t: 'Go deeper when you are ready', d: 'Book a taster 1:1 or commit to an 8 to 12 week programme. Everything at your pace.' },
                 ].map(s => (
                   <div key={s.n} className="step-card">
@@ -715,7 +715,7 @@ function JoinCoachPage({ setPage }) {
         {[
           { icon: '🎯', t: 'Clients come to you', d: 'You get matched to clients based on your specialism. No cold outreach, no social media grind, no waiting for referrals.' },
           { icon: '🗓', t: 'Booking handled for you', d: 'Clients book and pay through BeHallthy. You get a notification. You run the session your way.' },
-          { icon: '✅', t: 'Vetted, so clients trust you', d: 'Only UKIHCA, ICF, AC or ACCPH registered coaches join. That credential layer means clients arrive ready to engage.' },
+          { icon: '✅', t: 'Vetted, so clients trust you', d: 'Only coaches trained under a UKIHCA-recognised programme join BeHallthy. That means every coach has verifiable, health-specific training.' },
           { icon: '👥', t: 'Group sessions and talks', d: 'List your group sessions and in-person talks on BeHallthy. Clients book through the platform. You run the room.' },
           { icon: '📍', t: 'Online or in person', d: 'We recommend Google Meet for online sessions. Free, no app needed. In-person sessions are matched to local clients.' },
           { icon: '🤝', t: 'Founding cohort perks', d: 'The first coaches to join get a full year free, permanently reduced rates, and a say in how the platform develops.' },
@@ -730,7 +730,7 @@ function JoinCoachPage({ setPage }) {
       <div style={{ maxWidth: 520, margin: '0 auto', padding: '0 24px 80px' }}>
         <div className="join-form-card">
           <h3 className="join-form-title">Apply to join</h3>
-          <p style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 14, color: '#7a746c', marginBottom: 24, lineHeight: 1.65 }}>
+          <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 14, color: '#7a746c', marginBottom: 24, lineHeight: 1.65 }}>
             Tell us your name and email, then we will take you through a short profile-builder. It takes about 3 minutes and helps us match you to the right clients from day one.
           </p>
           <div className="form-field">
@@ -760,7 +760,7 @@ function JoinCoachPage({ setPage }) {
         <div className="quiz-step">Profile builder, question {quizStep + 1} of {COACH_QUIZ.length}</div>
         <h2 className="quiz-q">{q.question}</h2>
         {q.hint && (
-          <p style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 14, color: '#7a746c', marginBottom: 28, lineHeight: 1.65, fontStyle: 'italic' }}>{q.hint}</p>
+          <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 14, color: '#7a746c', marginBottom: 28, lineHeight: 1.65, fontStyle: 'italic' }}>{q.hint}</p>
         )}
         {q.type === 'text' ? (
           <TextQuestion placeholder={q.placeholder} onNext={handleTextNext} />
@@ -783,20 +783,20 @@ function JoinCoachPage({ setPage }) {
         <div style={{ textAlign: 'center', marginBottom: 40 }}>
           <span className="hero-eyebrow">Profile preview</span>
           <h2 style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 30, color: '#0369a1', marginBottom: 12, fontWeight: 700 }}>Here is how you will appear on BeHallthy</h2>
-          <p style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 15, color: '#7a746c', lineHeight: 1.7 }}>
+          <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 15, color: '#7a746c', lineHeight: 1.7 }}>
             This is a draft based on your answers. Once approved, you will be able to refine your bio, add a photo, and set your availability.
           </p>
         </div>
 
         {/* Profile card preview */}
         <div style={{ background: '#ffffff', borderRadius: 16, border: '2px solid #c86434', padding: 32, marginBottom: 24, position: 'relative' }}>
-          <div style={{ position: 'absolute', top: -11, left: 24, background: '#c86434', color: '#fff', fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', padding: '3px 12px', borderRadius: 4 }}>Draft profile</div>
+          <div style={{ position: 'absolute', top: -11, left: 24, background: '#c86434', color: '#fff', fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', padding: '3px 12px', borderRadius: 4 }}>Draft profile</div>
 
           <div style={{ display: 'flex', gap: 20, alignItems: 'flex-start', marginBottom: 20 }}>
             <PhotoPlaceholder size={72} initials={form.name.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase()} bg="#f5ece4" color="#c86434" />
             <div>
-              <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 700, color: '#0369a1', fontSize: 20, marginBottom: 4 }}>{form.name}</div>
-              <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', marginBottom: 10 }}>Your location · {profile.deliveryMode}</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 700, color: '#0369a1', fontSize: 20, marginBottom: 4 }}>{form.name}</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', marginBottom: 10 }}>Your location · {profile.deliveryMode}</div>
               <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginBottom: 8 }}>
                 <span className="coach-type-tag">{profile.coachType}</span>
                 <span className="coach-spec-tag">{profile.specialism}</span>
@@ -804,15 +804,15 @@ function JoinCoachPage({ setPage }) {
               <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                 <span className="qual-badge">{profile.qual}</span>
                 <span className="qual-insured">✓ Fully Insured</span>
-                <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, background: '#e0f0fa', color: '#0369a1', padding: '3px 8px', borderRadius: 4, fontWeight: 500 }}>{profile.sessionMode}</span>
+                <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, background: '#e0f0fa', color: '#0369a1', padding: '3px 8px', borderRadius: 4, fontWeight: 500 }}>{profile.sessionMode}</span>
               </div>
             </div>
           </div>
 
           {profile.bioOpener && (
             <div style={{ background: '#fafaf8', borderRadius: 10, padding: '16px 20px', marginBottom: 16 }}>
-              <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>Bio opener, drafted from your answers</div>
-              <p style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 14, color: '#3d3832', lineHeight: 1.75, fontStyle: 'italic' }}>"{profile.bioOpener}"</p>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>Bio opener, drafted from your answers</div>
+              <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 14, color: '#3d3832', lineHeight: 1.75, fontStyle: 'italic' }}>"{profile.bioOpener}"</p>
             </div>
           )}
 
@@ -823,8 +823,8 @@ function JoinCoachPage({ setPage }) {
               { l: 'Style', v: profile.style || 'To be confirmed' },
             ].map(item => (
               <div key={item.l} style={{ background: '#f8f7f5', borderRadius: 8, padding: '12px 14px' }}>
-                <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>{item.l}</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#0369a1' }}>{item.v}</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>{item.l}</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#0369a1' }}>{item.v}</div>
               </div>
             ))}
           </div>
@@ -833,13 +833,13 @@ function JoinCoachPage({ setPage }) {
         <div style={{ background: '#e6f7f4', borderRadius: 12, padding: '20px 24px', marginBottom: 28, display: 'flex', gap: 14, alignItems: 'flex-start' }}>
           <div style={{ fontSize: 20, flexShrink: 0 }}>✓</div>
           <div>
-            <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', marginBottom: 4, fontSize: 14 }}>Profile submitted for review</div>
-            <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.65 }}>We will check your qualification against recognised UK and Irish professional bodies and be in touch within 2 working days. Once approved, you will be invited to finalise your profile and set your availability.</div>
+            <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', marginBottom: 4, fontSize: 14 }}>Profile submitted for review</div>
+            <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', lineHeight: 1.65 }}>We will check your qualification against recognised UK and Irish professional bodies and be in touch within 2 working days. Once approved, you will be invited to finalise your profile and set your availability.</div>
           </div>
         </div>
 
         <div style={{ background: '#fafaf8', borderRadius: 12, border: '1px solid #eeecea', padding: '20px 24px', marginBottom: 28 }}>
-          <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 700, color: '#0369a1', fontSize: 13, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 12 }}>What happens next</div>
+          <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 700, color: '#0369a1', fontSize: 13, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 12 }}>What happens next</div>
           {[
             'We verify your qualification and insurance',
             'You get an email with your dashboard login',
@@ -847,8 +847,8 @@ function JoinCoachPage({ setPage }) {
             'Your profile goes live and clients can start booking',
           ].map((s, i) => (
             <div key={i} style={{ display: 'flex', gap: 12, marginBottom: 10, alignItems: 'flex-start' }}>
-              <div style={{ width: 22, height: 22, borderRadius: '50%', background: '#f5ece4', color: '#c86434', fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 1 }}>{i + 1}</div>
-              <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.6 }}>{s}</div>
+              <div style={{ width: 22, height: 22, borderRadius: '50%', background: '#f5ece4', color: '#c86434', fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 1 }}>{i + 1}</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', lineHeight: 1.6 }}>{s}</div>
             </div>
           ))}
         </div>
@@ -872,7 +872,7 @@ function TextQuestion({ placeholder, onNext }) {
         rows={5}
         style={{
           width: '100%', padding: '14px 16px', borderRadius: 10,
-          border: '1.5px solid #eeecea', fontFamily: "'Lora', Georgia, serif",
+          border: '1.5px solid #eeecea', fontFamily: "'Lato', 'Arial', sans-serif",
           fontSize: 15, color: '#3d3832', background: '#ffffff', outline: 'none',
           lineHeight: 1.65, resize: 'vertical', transition: 'border-color 0.15s',
         }}
@@ -1028,22 +1028,22 @@ function ProfilePage({ coach, setPage, setBookingDetails, prevPage }) {
                 )}
               </div>
               <div style={{ marginBottom: 12, display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                {coach.languages.map(l => <span key={l} style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, background: '#e6f7f4', color: '#2fbca0', padding: '3px 10px', borderRadius: 4, fontWeight: 500 }}>{l}</span>)}
+                {coach.languages.map(l => <span key={l} style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, background: '#e6f7f4', color: '#2fbca0', padding: '3px 10px', borderRadius: 4, fontWeight: 500 }}>{l}</span>)}
               </div>
-              <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', fontWeight: 500 }}>★ {coach.rating} rating · {coach.reviews} reviews</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', fontWeight: 500 }}>★ {coach.rating} rating · {coach.reviews} reviews</div>
             </div>
           </div>
           <div style={{ background: '#ffffff', borderRadius: 16, border: '1px solid #eeecea', padding: 32, marginBottom: 24 }}>
-            <h3 style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#7a746c', marginBottom: 16, textTransform: 'uppercase', letterSpacing: '0.08em' }}>About {coach.name.split(' ')[0]}</h3>
+            <h3 style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#7a746c', marginBottom: 16, textTransform: 'uppercase', letterSpacing: '0.08em' }}>About {coach.name.split(' ')[0]}</h3>
             <p className="profile-bio">{coach.bio}</p>
           </div>
           <div className="profile-sessions">
-            <h3 style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#7a746c', marginBottom: 24, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Ways to work together</h3>
+            <h3 style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#7a746c', marginBottom: 24, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Ways to work together</h3>
             <div className="session-option" onClick={() => { setBookingDetails({ type: 'Group session', session: coach.nextGroup, price: coach.groupPrice }); setPage('booking'); }}>
               <div>
                 <div className="session-type">Group session</div>
                 <div className="session-desc">Next: {coach.nextGroup}</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>Learn alongside others. Low commitment. A good way to start.</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>Learn alongside others. Low commitment. A good way to start.</div>
               </div>
               <div className="session-price">£{coach.groupPrice}</div>
             </div>
@@ -1051,7 +1051,7 @@ function ProfilePage({ coach, setPage, setBookingDetails, prevPage }) {
               <div>
                 <div className="session-type">Taster 1:1</div>
                 <div className="session-desc">30-minute session to talk through your situation</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>A chance to see if {coach.name.split(' ')[0]} is the right fit before committing to a programme.</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>A chance to see if {coach.name.split(' ')[0]} is the right fit before committing to a programme.</div>
               </div>
               <div className="session-price">£28</div>
             </div>
@@ -1059,7 +1059,7 @@ function ProfilePage({ coach, setPage, setBookingDetails, prevPage }) {
               <div>
                 <div className="session-type">Programme</div>
                 <div className="session-desc">8 to 12 weeks of structured 1:1 coaching</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>Book a taster first, then discuss which programme is right for you.</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', marginTop: 4 }}>Book a taster first, then discuss which programme is right for you.</div>
               </div>
               <div className="session-price">£300<span style={{ fontSize: 14, color: '#7a746c' }}>+</span></div>
             </div>
@@ -1082,7 +1082,7 @@ function BookingPage({ coach, bookingDetails, setPage, addBooking }) {
           <div className="booking-detail"><div className="booking-label">Session type</div><div className="booking-value">{bookingDetails.type}</div></div>
           <div className="booking-detail"><div className="booking-label">Session</div><div className="booking-value">{bookingDetails.session}</div></div>
           <div className="booking-detail"><div className="booking-label">Price</div><div className="booking-value" style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 26, color: '#c86434' }}>£{bookingDetails.price}</div></div>
-          <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', marginBottom: 24, lineHeight: 1.65 }}>Secure payment handled by BeHallthy. You will receive a confirmation email with everything you need.</div>
+          <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', marginBottom: 24, lineHeight: 1.65 }}>Secure payment handled by BeHallthy. You will receive a confirmation email with everything you need.</div>
           <button className="btn-primary" style={{ width: '100%', fontSize: 16, padding: '16px' }} onClick={() => { addBooking({ coach: coach.name, type: bookingDetails.type, session: bookingDetails.session, price: bookingDetails.price }); setPage('confirmation'); }}>Confirm booking</button>
         </div>
       </div>
@@ -1099,7 +1099,7 @@ function ConfirmationPage({ coach, bookingDetails, setPage }) {
         <p className="confirm-sub">Your {bookingDetails?.type?.toLowerCase()} with {coach?.name} is confirmed. A confirmation email is on its way with everything you need.</p>
         <div style={{ background: '#f8f7f5', borderRadius: 12, padding: '20px 24px', marginBottom: 32, textAlign: 'left' }}>
           <div className="booking-label" style={{ marginBottom: 4 }}>Session</div>
-          <div style={{ fontFamily: "'Lora', Georgia, serif", color: '#0369a1', fontSize: 15 }}>{bookingDetails?.session}</div>
+          <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", color: '#0369a1', fontSize: 15 }}>{bookingDetails?.session}</div>
         </div>
         <button className="btn-primary" style={{ marginBottom: 12, width: '100%' }} onClick={() => setPage('clientDashboard')}>Go to your dashboard</button>
         <button className="btn-secondary" style={{ width: '100%' }} onClick={() => setPage('coaches')}>Browse more coaches</button>
@@ -1114,12 +1114,12 @@ function ClientDashboard({ bookings, quizAnswers, setPage }) {
     <div className="page">
       <div className="dashboard-body">
         <h1 style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 30, color: '#0369a1', marginBottom: 6, fontWeight: 700 }}>Your dashboard</h1>
-        <p style={{ fontFamily: "'Lora', Georgia, serif", color: '#7a746c', marginBottom: 36 }}>Everything in one place.</p>
+        <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", color: '#7a746c', marginBottom: 36 }}>Everything in one place.</p>
         <div className="dashboard-grid">
           <div className="dash-card">
             <div className="dash-card-label">Your bookings</div>
             {bookings.length === 0 ? (
-              <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 14, color: '#7a746c' }}>No bookings yet. <button style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", color: '#c86434', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 500 }} onClick={() => setPage('coaches')}>Find a coach</button></div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 14, color: '#7a746c' }}>No bookings yet. <button style={{ fontFamily: "'Lato', 'Arial', sans-serif", color: '#c86434', background: 'none', border: 'none', cursor: 'pointer', fontWeight: 500 }} onClick={() => setPage('coaches')}>Find a coach</button></div>
             ) : bookings.map((b, i) => (
               <div key={i} className="booking-row">
                 <div>
@@ -1144,13 +1144,13 @@ function ClientDashboard({ bookings, quizAnswers, setPage }) {
                   </div>
                 </div>
               ))}
-              <button style={{ marginTop: 14, fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, fontWeight: 500, color: '#c86434', background: 'none', border: 'none', cursor: 'pointer' }} onClick={() => setPage('matches')}>View full matches →</button>
+              <button style={{ marginTop: 14, fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, fontWeight: 500, color: '#c86434', background: 'none', border: 'none', cursor: 'pointer' }} onClick={() => setPage('matches')}>View full matches →</button>
             </div>
           )}
           {quizAnswers.length < 8 && (
             <div className="dash-card" style={{ background: '#f5ece4', border: '1px solid #e8a882' }}>
               <div className="dash-card-label" style={{ color: '#c86434' }}>Not matched yet</div>
-              <p style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 14, color: '#3d3832', marginBottom: 16, lineHeight: 1.65 }}>Take the 2-minute quiz to get matched to coaches who specialise in what you are dealing with.</p>
+              <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 14, color: '#3d3832', marginBottom: 16, lineHeight: 1.65 }}>Take the 2-minute quiz to get matched to coaches who specialise in what you are dealing with.</p>
               <button className="btn-primary" onClick={() => setPage('quiz')}>Take the quiz</button>
             </div>
           )}
@@ -1184,20 +1184,20 @@ function CoachDashboard() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 32, flexWrap: 'wrap', gap: 16 }}>
           <div>
             <h1 style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 30, color: '#0369a1', marginBottom: 4, fontWeight: 700 }}>Coach dashboard</h1>
-            <p style={{ fontFamily: "'Lora', Georgia, serif", color: '#7a746c' }}>Welcome back, Priya</p>
+            <p style={{ fontFamily: "'Lato', 'Arial', sans-serif", color: '#7a746c' }}>Welcome back, Priya</p>
           </div>
           {/* Session mode badge */}
           <div style={{ background: '#ffffff', border: '1px solid #eeecea', borderRadius: 12, padding: '12px 20px', display: 'flex', gap: 16, alignItems: 'center' }}>
             <div>
-              <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Session delivery</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Session delivery</div>
               <div style={{ display: 'flex', gap: 6 }}>
-                <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, background: '#e0f0fa', color: '#0369a1', padding: '3px 10px', borderRadius: 20, fontWeight: 500 }}>Online</span>
-                <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, background: '#e6f7f4', color: '#2fbca0', padding: '3px 10px', borderRadius: 20, fontWeight: 500 }}>In person</span>
+                <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, background: '#e0f0fa', color: '#0369a1', padding: '3px 10px', borderRadius: 20, fontWeight: 500 }}>Online</span>
+                <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, background: '#e6f7f4', color: '#2fbca0', padding: '3px 10px', borderRadius: 20, fontWeight: 500 }}>In person</span>
               </div>
             </div>
             <div style={{ borderLeft: '1px solid #eeecea', paddingLeft: 16 }}>
-              <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Location</div>
-              <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#0369a1' }}>London, England</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 10, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 4 }}>Location</div>
+              <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#0369a1' }}>London, England</div>
             </div>
           </div>
         </div>
@@ -1216,13 +1216,13 @@ function CoachDashboard() {
 
         {/* Feedback sent toast */}
         {feedbackSent.length > 0 && (
-          <div style={{ background: '#e6f7f4', border: '1px solid #2fbca0', borderRadius: 10, padding: '12px 20px', marginBottom: 20, display: 'flex', gap: 10, alignItems: 'center', fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, color: '#0369a1', fontWeight: 500 }}>
+          <div style={{ background: '#e6f7f4', border: '1px solid #2fbca0', borderRadius: 10, padding: '12px 20px', marginBottom: 20, display: 'flex', gap: 10, alignItems: 'center', fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#0369a1', fontWeight: 500 }}>
             <span style={{ fontSize: 16 }}>✓</span> Feedback request sent to client automatically
           </div>
         )}
 
         {/* Sessions table */}
-        <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 12 }}>Your sessions</div>
+        <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 12 }}>Your sessions</div>
         <div className="admin-table-wrap" style={{ marginBottom: 32 }}>
           <table className="admin-table">
             <thead>
@@ -1238,16 +1238,16 @@ function CoachDashboard() {
             <tbody>
               {sessions.map(s => (
                 <tr key={s.id} style={{ opacity: s.done ? 0.5 : 1 }}>
-                  <td style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1' }}>{s.client}</td>
+                  <td style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1' }}>{s.client}</td>
                   <td>{s.type}</td>
                   <td>{s.date}</td>
                   <td>
-                    <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 500, color: s.mode === 'Online' ? '#0369a1' : '#2fbca0', background: s.mode === 'Online' ? '#e0f0fa' : '#e6f7f4', padding: '3px 10px', borderRadius: 20 }}>
+                    <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 500, color: s.mode === 'Online' ? '#0369a1' : '#2fbca0', background: s.mode === 'Online' ? '#e0f0fa' : '#e6f7f4', padding: '3px 10px', borderRadius: 20 }}>
                       {s.mode}
                     </span>
                   </td>
                   <td>
-                    <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: s.done ? '#7a746c' : s.status === 'Confirmed' ? '#2fbca0' : '#c86434', background: s.done ? '#f8f7f5' : s.status === 'Confirmed' ? '#e6f7f4' : '#f5ece4', padding: '3px 10px', borderRadius: 20 }}>
+                    <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: s.done ? '#7a746c' : s.status === 'Confirmed' ? '#2fbca0' : '#c86434', background: s.done ? '#f8f7f5' : s.status === 'Confirmed' ? '#e6f7f4' : '#f5ece4', padding: '3px 10px', borderRadius: 20 }}>
                       {s.done ? 'Done' : s.status}
                     </span>
                   </td>
@@ -1255,14 +1255,14 @@ function CoachDashboard() {
                     {!s.done && s.status === 'Confirmed' ? (
                       <button
                         onClick={() => markDone(s.id)}
-                        style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 12, fontWeight: 500, color: '#c86434', background: '#f5ece4', border: '1px solid #e8a882', borderRadius: 6, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', transition: 'opacity 0.15s' }}
+                        style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 12, fontWeight: 500, color: '#c86434', background: '#f5ece4', border: '1px solid #e8a882', borderRadius: 6, padding: '5px 12px', cursor: 'pointer', whiteSpace: 'nowrap', transition: 'opacity 0.15s' }}
                       >
                         Mark done
                       </button>
                     ) : s.done ? (
-                      <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 12, color: '#7a746c' }}>Feedback sent</span>
+                      <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 12, color: '#7a746c' }}>Feedback sent</span>
                     ) : (
-                      <span style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 12, color: '#c8c4be' }}>Awaiting confirm</span>
+                      <span style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 12, color: '#c8c4be' }}>Awaiting confirm</span>
                     )}
                   </td>
                 </tr>
@@ -1273,20 +1273,20 @@ function CoachDashboard() {
 
         {/* Tools recommendation */}
         <div style={{ background: '#fafaf8', borderRadius: 12, border: '1px solid #eeecea', padding: '20px 24px' }}>
-          <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 14 }}>Recommended tools</div>
+          <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 11, fontWeight: 700, color: '#7a746c', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 14 }}>Recommended tools</div>
           <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
             <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start', flex: 1, minWidth: 220 }}>
               <div style={{ width: 32, height: 32, borderRadius: 8, background: '#e0f0fa', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, flexShrink: 0 }}>📹</div>
               <div>
-                <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>Google Meet for online sessions</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Free, no app needed for clients, no time limits. Our recommended tool for 1:1 and group sessions online.</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>Google Meet for online sessions</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Free, no app needed for clients, no time limits. Our recommended tool for 1:1 and group sessions online.</div>
               </div>
             </div>
             <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start', flex: 1, minWidth: 220 }}>
               <div style={{ width: 32, height: 32, borderRadius: 8, background: '#f5ece4', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, flexShrink: 0 }}>📍</div>
               <div>
-                <div style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>In-person sessions</div>
-                <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Your space, your venue. BeHallthy handles the booking and payment. You choose where you meet your clients.</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1', fontSize: 13, marginBottom: 3 }}>In-person sessions</div>
+                <div style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, color: '#7a746c', lineHeight: 1.55 }}>Your space, your venue. BeHallthy handles the booking and payment. You choose where you meet your clients.</div>
               </div>
             </div>
           </div>
@@ -1308,19 +1308,19 @@ function AdminPage() {
               <div key={s.l} className="admin-stat"><div className="admin-stat-num">{s.n}</div><div className="admin-stat-label">{s.l}</div></div>
             ))}
           </div>
-          <h3 style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#0369a1', marginBottom: 20, textTransform: 'uppercase', letterSpacing: '0.06em' }}>Coach roster</h3>
+          <h3 style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontSize: 13, fontWeight: 700, color: '#0369a1', marginBottom: 20, textTransform: 'uppercase', letterSpacing: '0.06em' }}>Coach roster</h3>
           <div className="admin-table-wrap">
             <table className="admin-table">
               <thead><tr><th>Coach</th><th>Location</th><th>Type</th><th>Specialism</th><th>Primary qualification</th><th>Rating</th></tr></thead>
               <tbody>
                 {COACHES.map(c => (
                   <tr key={c.id}>
-                    <td style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1' }}>{c.name}</td>
+                    <td style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500, color: '#0369a1' }}>{c.name}</td>
                     <td>{c.location}</td>
                     <td><span className="coach-type-tag" style={{ fontSize: 10 }}>{c.coachType}</span></td>
                     <td><span className="coach-spec-tag" style={{ fontSize: 11 }}>{c.specialism}</span></td>
                     <td>{c.qualifications[0]}</td>
-                    <td style={{ fontFamily: "'Bricolage Grotesque', 'Arial', sans-serif", fontWeight: 500 }}>★ {c.rating}</td>
+                    <td style={{ fontFamily: "'Lato', 'Arial', sans-serif", fontWeight: 500 }}>★ {c.rating}</td>
                   </tr>
                 ))}
               </tbody>
