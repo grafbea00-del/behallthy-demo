@@ -377,7 +377,7 @@ const styles = `
   .coach-location { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; color: #7a746c; margin-bottom: 4px; }
   .coach-type-tag { font-family: 'Lato', 'Arial', sans-serif; font-size: 11px; color: #c86434; background: #f5ece4; padding: 3px 10px; border-radius: 20px; font-weight: 500; display: inline-block; margin-bottom: 4px; }
   .coach-spec-tag { display: inline-block; font-family: 'Lato', 'Arial', sans-serif; background: #e6f7f4; color: #2fbca0; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
-  .coach-bio { padding: 0 24px 16px; font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .coach-bio { padding: 0 24px 16px; font-family: 'Lato', 'Arial', sans-serif; font-size: 14px; color: #7a746c; line-height: 1.75; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .coach-card-footer { padding: 16px 24px; border-top: 1px solid #eeecea; display: flex; justify-content: space-between; align-items: center; }
   .coach-rating { font-family: 'Lato', 'Arial', sans-serif; font-size: 13px; font-weight: 500; color: #3d3832; }
   .coach-rating span { color: #7a746c; font-weight: 700; }
