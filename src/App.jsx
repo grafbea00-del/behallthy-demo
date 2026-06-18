@@ -539,7 +539,7 @@ function HomePage({ userType, setUserType, setPage }) {
           <div className="hero">
             <span className="hero-eyebrow">Vetted health coaches, matched to you</span>
             <h1 className="hero-title">You know something<br /><em>needs to change.</em><br />We help you figure out what.</h1>
-            <p className="hero-sub">BeHallthy connects you with qualified, insured health coaches who specialise in exactly what you are dealing with. Start with a group session, no commitment, and see how it feels.</p>
+            <p className="hero-sub">BeHallthy connects you with qualified, insured health coaches who specialise in exactly what you are dealing with. Start with a group session and see how it feels.</p>
             <div className="hero-actions">
               <button className="btn-primary" onClick={() => setPage('quiz')}>Take the matching quiz</button>
               <button className="btn-secondary" onClick={() => setPage('coaches')}>Browse coaches</button>
